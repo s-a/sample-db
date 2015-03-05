@@ -1,9 +1,10 @@
 {
   "name": "Beatproducer sample pack",
-  "description": "Some cool beats!",
+  "description": "Some cool Hip-Hop beats!",
   "author": "Stephan Ahlf",
   "authorUrl": "https://github.com/s-a",
   "license": "CC BY 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "tags":["Hip-Hop"]
 }
