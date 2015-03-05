@@ -1,0 +1,1 @@
+A node script to generate a channel.json file.

@@ -15,4 +15,4 @@ To send a pull request: Fork the repo, create a new branch and add your samples 
  - All additional collections have to contain a ```package.json``` file which describes the colletion.  Take a look at this [package.json](beatproducer-pack-1/package.json) file to create your own.  
 
 # License
-By default all samples are published under MIT and GLP license. If you want a diffent license model enter it into the license field in your ```package.json```. The license permission inherits to nested subfolders.  
+By default all samples are published under MIT and GLP license. If you want a diffent license model enter it into the ```license``` field in your ```package.json```. The license permission inherits to nested subfolders.  
