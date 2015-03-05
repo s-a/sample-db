@@ -46,4 +46,8 @@ describe("validation", function() {
 			file.toLowerCase().should.be.equal(file);
 		}
 	});
+
+	it("should contain a valid channel.json", function() {
+		require("./../channel.json").length.should.be.above(0);
+	});
 });
