@@ -99,10 +99,7 @@ function bundle (files) {
 
 var files = getFiles(__dirname);
 var bundle = bundle(files);
-var bundleData = JSON.stringify(bundle)
-bundleData = bundleData.replace(/,/g, ",\n");
-bundleData = bundleData.replace(/\[/g, "[\n");
-bundleData = bundleData.replace(/\]/g, "\n]");
+var bundleData = JSON.stringify(bundle);
 bundleData = beautify(bundleData, { 
 	/*indent_size: 1,
 	brace_style  : "expand" ,
