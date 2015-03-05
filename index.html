@@ -13,7 +13,7 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
     <script type="text/javascript" src="bower_components/jplayer/dist/add-on/jplayer.playlist.min.js"></script>
-    <script type="text/javascript" src="bower_components/jplayer/dist/add-on/jquery.jplayer.inspector.min.js"></script>    
+    
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,6 +32,21 @@
       </header>
       <section>
         <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon-link"></span></a>Welcome to Open Sample DB.</h3>
+        <p>Help the database to grow at <a href="https://github.com/s-a/sample-db">GitHub</a>.</p>
+
+        <h3>
+        <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+        <p>
+          <ul id="authors-and-contributors-list"></ul>
+        </p>
+
+
+        <h3>
+        <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+        <p>Having trouble with Pages? Check out the documentation at <a href="https://github.com/s-a/sample-db">https://github.com/s-a/sample-db</a> or contact at <a href="https://github.com/s-a/sample-db/issues">https://github.com/s-a/sample-db/issues</a> and we’ll help you sort it out.</p>
+
         <h3>
         <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Check this out!</h3>
 
@@ -78,19 +93,7 @@
         <!-- 
           <div id="jplayer_inspector_1"></div>
          -->
-        <h3>
-        <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-        <p>
-          <ul>
-            <li>author 1 : package name</li>
-          </ul>
-        </p>
-
-        <h3>
-        <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-        <p>Having trouble with Pages? Check out the documentation at <a href="https://github.com/s-a/sample-db">https://github.com/s-a/sample-db</a> or contact at <a href="https://github.com/s-a/sample-db/issues">https://github.com/s-a/sample-db/issues</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
@@ -98,96 +101,6 @@
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-		<script type="text/javascript">
-    $(document).ready(function(){
-
-      new jPlayerPlaylist({
-        jPlayer: "#jquery_jplayer_1",
-        cssSelectorAncestor: "#jp_container_1",
-         size: {
-                         width: "100%",
-                         height: "30px"
-                    }
-      }, [
-        {
-          title:"test",
-          wav:"beatproducer-pack-1/bpNet_back_to_basic_old_school_hip_hop_beat_075bpm.wav"
-        },
-        {
-          title:"Your Face",
-          mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/TSP-05-Your_face.ogg"
-        },
-        {
-          title:"Cyber Sonnet",
-          mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/TSP-07-Cybersonnet.ogg"
-        },
-        {
-          title:"Tempered Song",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-01-Tempered-song.ogg"
-        },
-        {
-          title:"Hidden",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg"
-        },
-        {
-          title:"Lentement",
-          free:true,
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
-        },
-        {
-          title:"Lismore",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
-        },
-        {
-          title:"The Separation",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-05-The-separation.ogg"
-        },
-        {
-          title:"Beside Me",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-06-Beside-me.ogg"
-        },
-        {
-          title:"Bubble",
-          free:true,
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
-        },
-        {
-          title:"Stirring of a Fool",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-08-Stirring-of-a-fool.ogg"
-        },
-        {
-          title:"Partir",
-          free: true,
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-09-Partir.ogg"
-        },
-        {
-          title:"Thin Ice",
-          mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
-          oga:"http://www.jplayer.org/audio/ogg/Miaow-10-Thin-ice.ogg"
-        }
-      ], {
-        swfPath: "../dist/jplayer",
-        supplied: "wav",
-        wmode: "window",
-        useStateClassSkin: true,
-        autoBlur: false,
-        smoothPlayBar: true,
-        keyEnabled: true
-      });
-
-      $("#jplayer_inspector_1").jPlayerInspector({jPlayer:$("#jquery_jplayer_1")});
-    });
-    </script>
+		<script type="text/javascript" src="javascripts/main.js"></script>
   </body>
 </html>
