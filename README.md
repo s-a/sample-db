@@ -11,7 +11,7 @@ To send a pull request: Fork the repo, create a new branch and add your samples 
  - All sample audio files have to be saved in [WAVE format](http://en.wikipedia.org/wiki/WAV). 
  - All sample audio filenames have to be lower cased.
  - There is no naming convension obligation but if you want give further informations about a ```.wav``` file follow this filename structure to define beats per minute and sample length:
-   - [describing-file-name]_[108bpm]_[4bars].wav
+   - ```[describing-file-name]_[108bpm]_[4bars].wav```
  - All additional collections have to contain a ```package.json``` file which describes the colletion.  Take a look at this [package.json](beatproducer-pack-1/package.json) file to create your own.  
 
 # License
