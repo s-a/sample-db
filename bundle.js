@@ -5,9 +5,13 @@ var fs = require("fs");
 var path = require("path");
 var beautify = require('js-beautify').js_beautify;
 
+function normalizePath (p) {
+	return p.toLowerCase().replace(/\\/g, "/");
+}
+
 // A simple node script to generate a channel.json file.
 function getFiles (dir, files_){
-	var p = path.dirname(dir.toLowerCase());
+	var p = path.dirname(dir.toLowerCase()).replace(/\\/g, "/");
 	if (	// ignore root
 		p === __dirname
 	){
@@ -32,7 +36,14 @@ function getFiles (dir, files_){
             getFiles(name, files_);
         } else {
         	if (path.extname(name).toLowerCase() === ".wav" || path.basename(name).toLowerCase() === "package.json"){
-            	files_.push(name);
+        		if (path.basename(name).toLowerCase() === "package.json"){
+        			if (normalizePath(path.dirname(name)) !== normalizePath(__dirname)){ // ignore root
+            			files_.push(name);
+        				console.log(path.dirname(name.toLowerCase()).replace(/\\/g, "/") , __dirname.replace(/\\/g, "/"));
+        			}
+        		} else {
+            		files_.push(name);
+        		}
         	}
         }
     }
@@ -87,12 +98,16 @@ function bundle (files) {
 
 var files = getFiles(__dirname);
 var bundle = bundle(files);
-var bundleData = JSON.stringify(bundle);
+var bundleData = JSON.stringify(bundle)
+bundleData = bundleData.replace(/,/g, ",\n");
+bundleData = bundleData.replace(/\[/g, "[\n");
+bundleData = bundleData.replace(/\]/g, "\n]");
 bundleData = beautify(bundleData, { 
+	/*indent_size: 1,
 	brace_style  : "expand" ,
 	indent_char  : "\t",
 	good_stuff   : true,
-    keep_array_indentation: true
+    keep_array_indentation: true*/
 });
 
 fs.writeFileSync('channel.json', bundleData);
