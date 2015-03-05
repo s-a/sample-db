@@ -1,5 +1,35 @@
 (function  ($) {
 	$(document).ready(function(){
+
+		var scrollToElement = function(el, ms){
+		    var speed = (ms) ? ms : 600;
+		    $('html,body').animate({
+		        scrollTop: $(el).offset().top
+		    }, speed);
+		}
+
+		// specify id of element and optional scroll speed as arguments
+		$("#share-button").click(function() {
+			$("#share-container").slideDown(function() {
+				scrollToElement('#share-container', 600);
+			});
+		});
+
+		$('#share').socialSharePrivacy({
+			path_prefix:"javascripts/share/",
+			layout: "box",
+			info_link: "",
+			info_link_target : "_blank" ,
+
+			order: ["facebook", "twitter","gplus", "hackernews"],
+			services : {
+				tumblr : {status : false},
+				mail : {status : false},
+				info: {status : false}
+			}
+		});
+
+
 		var player = null;
 		var initializePlayer = function(playList) {
 			player = new window.jPlayerPlaylist({
