@@ -1,0 +1,8 @@
+{
+  "name": "Beatproducer Drum Sets",
+  "description": "Basic drum set elements like bases, snares and hihats.",
+  "author": "Stephan Ahlf",
+  "authorUrl": "https://github.com/s-a",
+  "version": "0.0.1",
+  "tags":["drum-set"]
+}
