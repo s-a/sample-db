@@ -15,6 +15,8 @@
     "node": ">=0.8.0"
   }, 
   "devDependencies": {
-    "js-beautify":""
+    "js-beautify":"",
+    "mocha":"",
+    "should":""
   }
 }

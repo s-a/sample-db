@@ -21,6 +21,7 @@ function getFiles (dir, files_){
 	p = p[p.length-1];
 	if (	// ignore asset folders
 		p === "bower_components" ||
+		p === "test" ||
 		p === "images" ||
 		p === "javascripts" ||
 		p === "stylesheets" ||
