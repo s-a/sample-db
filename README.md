@@ -1,4 +1,4 @@
-# sample-db
+# Sample DB
 A collection of open source samples in wave format
 
 
@@ -12,6 +12,7 @@ To send a pull request: Fork the repo, create a new branch and add your samples 
  - All sample audio filenames have to be lower cased.
  - There is no naming convension obligation but if you want give further informations about a ```.wav``` file follow this filename structure to define beats per minute and sample length:
    - [describing-file-name]_[108bpm]_[4bars].wav
+ - All additional collections have to contain a ```package.json``` file which describes the colletion.  Take a look at this [package.json](package.json) file to create your own.  
 
 # License
-By default all samples are published under MIT and GLP license. If you want a diffent license model place a file called ```LICENSE``` into subfolders you created. The license permission inherits to nested subfolders.  
+By default all samples are published under MIT and GLP license. If you want a diffent license model enter it into the license field in your ```package.json```. The license permission inherits to nested subfolders.  
