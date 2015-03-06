@@ -16,8 +16,19 @@
     "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
     "version": "0.0.1",
     "tags": ["Hip-Hop"],
-    "files": ["bpnet_another-day-in-paradise_095bpm_4bars.wav", "bpnet_back_to_basic_old_school_hip_hop_beat_075bpm.wav", "bpnet_back_to_basic_old_school_hip_hop_beat_110bpm.wav", "bpnet_break_boost_beat_100bpm.wav", "bpnet_chop_da_filtered_beat_090bpm.wav", "bpnet_chop_da_filtered_beat_150bpm.wav", "bpnet_coffee_mornin_on_a_vinyl_beat_090bpm.wav", "bpnet_coffee_mornin_on_a_vinyl_beat_120bpm.wav", "bpnet_elements_of_drummers_soul_100bpm.wav", "bpnet_elements_of_drummers_soul_120bpm.wav", "bpnet_european_hip_hop_beat_090bpm.wav", "bpnet_european_hip_hop_beat_120bpm.wav", "bpnet_groove_me_forward_beat_120bpm.wav", "bpnet_hip_hop_tools_in_rage_090bpm.wav", "bpnet_platinum_hip_hop_groove_loop_090bpm.wav", "bpnet_platinum_hip_hop_groove_loop_120bpm.wav", "bpnet_precious_hip_hop_groove_100bpm.wav", "bpnet_precious_hip_hop_groove_120bpm.wav", "bpnet_rude_hip_hop_funky_trip_100bpm.wav", "bpnet_simple_hip_hop_rythm_groove_100bpm.wav", "bpnet_soul_jam_club_beat_in_da_moonlight_080bpm.wav", "bpnet_the dawn_of_a_souled_hip_hop_rhythm_108bpm.wav"],
+    "files": ["bpnet_another-day-in-paradise_095bpm_4bars.wav", "bpnet_back_to_basic_old_school_hip_hop_beat_075bpm.wav", "bpnet_back_to_basic_old_school_hip_hop_beat_110bpm.wav", "bpnet_break_boost_beat_100bpm.wav", "bpnet_chop_da_filtered_beat_090bpm.wav", "bpnet_chop_da_filtered_beat_150bpm.wav", "bpnet_coffee_mornin_on_a_vinyl_beat_090bpm.wav", "bpnet_coffee_mornin_on_a_vinyl_beat_120bpm.wav", "bpnet_elements_of_drummers_soul_100bpm.wav", "bpnet_elements_of_drummers_soul_120bpm.wav", "bpnet_european_hip_hop_beat_090bpm.wav", "bpnet_european_hip_hop_beat_120bpm.wav", "bpnet_groove_me_forward_beat_120bpm.wav", "bpnet_hip_hop_tools_in_rage_090bpm.wav", "bpnet_platinum_hip_hop_groove_loop_090bpm.wav", "bpnet_platinum_hip_hop_groove_loop_120bpm.wav", "bpnet_precious_hip_hop_groove_100bpm.wav", "bpnet_precious_hip_hop_groove_120bpm.wav", "bpnet_rude_hip_hop_funky_trip_100bpm.wav", "bpnet_simple_hip_hop_rythm_groove_100bpm.wav", "bpnet_soul_jam_club_beat_in_da_moonlight_080bpm.wav", "bpnet_the dawn_of_a_souled_hip_hop_rhythm_108bpm.wav", "bpnet_the-big-boom.wav"],
     "path": "beatproducer-drum-loops-pack-1"
+}, {
+    "name": "Beatproducer sample pack zero",
+    "description": "Hip-Hop prequel era.",
+    "author": "Stephan Ahlf",
+    "authorUrl": "https://github.com/s-a",
+    "license": "CC BY 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+    "version": "0.0.1",
+    "tags": ["Hip-Hop", "Drum and Bass"],
+    "files": ["bc2_100bpm_12bars.wav", "bc2_116bpm_12bars.wav", "bc2_90bpm_12bars.wav", "bc3_100bpm_8bars.wav", "bc3_160bpm_8bars.wav", "bc4_101bpm_4bars.wav", "bk-dox_100bpm_4bars.wav", "blue-moon_160bpm_8bars.wav", "boombast_95bpm_12bars.wav", "breaking_xymbals_108bpm_4bars.wav", "crank_90bpm_6bars.wav", "da-good-damn-ridim_91bpm_8bars.wav", "dirty-harry_104bpm_4bars.wav", "dvd-intro_122bpm_16bars.wav", "escape_137bpm_16bars.wav", "first-drums_127bpm_4bars.wav", "hiddeouz_101bpm_12bars.wav", "ice_108bpm_4bars.wav", "interlude_88bpm_8bars.wav", "low-pressure_160bpm_10bars.wav", "mind-of-a-deamon_108bpm_8bars.wav", "my-congas_105bpm_4bars.wav", "no-end_93bpm_4bars.wav", "no-rythm_175bpm_8bars.wav", "oh-behave_137bpm_16bars.wav", "preech-n-intergalactic_106bpm_4bars.wav", "rapbeat_116bpm_33bars.wav", "rattlesnake_108bpm_4bars.wav", "red-style_102bpm_12bars.wav", "roll-out_90bpm_2bars.wav", "rollin-thunder_101bpm_4bars.wav", "ruff-lines-all-mine_108bpm_12bars.wav", "ruff-lines-all-mine_91bpm_12bars.wav", "simple-one_95bpm_4bars.wav", "sunshine_101bpm_12bars.wav", "the-funky-shit-xpress_116bpm_6bars.wav", "the-mental-disorda_126bpm_8bars.wav", "the_awakening_101bpm_4bars.wav"],
+    "path": "beatproducer-drum-loops-pack-zero"
 }, {
     "name": "Beatproducer Drum Sets",
     "description": "Basic drum set elements like bases, snares and hihats.",
