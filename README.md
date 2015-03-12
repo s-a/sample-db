@@ -1,6 +1,6 @@
 # Sample DB
 A collection of open source samples and loops in wave format
-[<img src="https://travis-ci.org/s-a/open-sample-db.png" />](https://travis-ci.org/s-a/open-sample-db "Build state")
+[<img src="https://travis-ci.org/s-a/sample-db.png" />](https://travis-ci.org/s-a/sample-db "Build state")
 
 
 # Collaborate
@@ -9,7 +9,7 @@ Feel free to add your sounds :O)
 To do this you need [NodeJs](http://nodejs.org/). After installation goto to the repositiory directory and type ```npm install```.
 
 ## Contributing
-1. [Fork it!](https://github.com/s-a/open-sample-db/fork)
+1. [Fork it!](https://github.com/s-a/sample-db/fork)
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Add your samples to a subfolder
 4. Run ```node bundle.js```
