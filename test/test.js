@@ -36,14 +36,26 @@ function getFiles (dir, files_){
     return files_;
 }
 
+function getFilesizeInMegaBytes(filename) {
+	var stats = fs.statSync(filename);
+	var fileSizeInBytes = stats["size"];
+	return fileSizeInBytes / 1000 / 1000;
+}
 
 describe("validation", function() {
-	it("should hold only lowercased filenames", function() {
+	it("should contain only lowercased filenames", function() {
 		var files = getFiles(path.join(__dirname, ".."));
 
 		for (var i = 0; i < files.length; i++) {
 			var file = path.basename(files[i]);
 			file.toLowerCase().should.be.equal(file);
+		}
+	});
+
+	it("should contain only files below 10mb", function() {
+		var files = getFiles(path.join(__dirname, ".."));
+		for (var i = 0; i < files.length; i++) {
+			getFilesizeInMegaBytes(files[i]).should.be.below(10);
 		}
 	});
 
