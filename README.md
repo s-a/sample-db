@@ -1,6 +1,7 @@
 # Sample DB
-A collection of open source samples and loops in wave format
+A collection of open source samples and loops in wave format  
 [<img src="https://travis-ci.org/s-a/sample-db.png" />](https://travis-ci.org/s-a/sample-db "Build state")
+[![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
 
 
 # Collaborate
